@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/ConsoleApp/cryhard.TaskPlanner.ConsoleApp/cryhard.TaskPlanner.ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions.csproj",
+        "projectName": "cryhard.TaskPlanner.DataAccess.Abstractions",
+        "projectPath": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions.csproj",
+        "packagesPath": "/Users/cryhard/.nuget/packages/",
+        "outputPath": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cryhard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/ConsoleApp/cryhard.TaskPlanner.ConsoleApp/cryhard.TaskPlanner.ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/ConsoleApp/cryhard.TaskPlanner.ConsoleApp/cryhard.TaskPlanner.ConsoleApp.csproj",
+        "projectName": "cryhard.TaskPlanner.ConsoleApp",
+        "projectPath": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/ConsoleApp/cryhard.TaskPlanner.ConsoleApp/cryhard.TaskPlanner.ConsoleApp.csproj",
+        "packagesPath": "/Users/cryhard/.nuget/packages/",
+        "outputPath": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/ConsoleApp/cryhard.TaskPlanner.ConsoleApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cryhard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/DataAccess/cryhard.TaskPlanner.DataAccess/cryhard.TaskPlanner.DataAccess.csproj": {
+                "projectPath": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/DataAccess/cryhard.TaskPlanner.DataAccess/cryhard.TaskPlanner.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/DataAccess/cryhard.TaskPlanner.DataAccess/cryhard.TaskPlanner.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/DataAccess/cryhard.TaskPlanner.DataAccess/cryhard.TaskPlanner.DataAccess.csproj",
+        "projectName": "cryhard.TaskPlanner.DataAccess",
+        "projectPath": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/DataAccess/cryhard.TaskPlanner.DataAccess/cryhard.TaskPlanner.DataAccess.csproj",
+        "packagesPath": "/Users/cryhard/.nuget/packages/",
+        "outputPath": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/DataAccess/cryhard.TaskPlanner.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cryhard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions.csproj": {
+                "projectPath": "/Users/cryhard/Documents/Code/cryhard.TaskPlannerSolution/Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions/cryhard.TaskPlanner.DataAccess.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

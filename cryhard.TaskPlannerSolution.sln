@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cryhard.TaskPlanner.DataAccess.Abstractions", "cryhard.TaskPlanner.DataAccess.Abstractions\cryhard.TaskPlanner.DataAccess.Abstractions.csproj", "{ED5B5C51-ED41-4E31-8B9A-C88E5CAD3A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cryhard.TaskPlanner.DataAccess", "cryhard.TaskPlanner.DataAccess\cryhard.TaskPlanner.DataAccess.csproj", "{321ECB18-75C8-4DB7-9EE7-D5B4BE6D76FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cryhard.TaskPlanner.ConsoleApp", "cryhard.TaskPlanner.ConsoleApp\cryhard.TaskPlanner.ConsoleApp.csproj", "{6DF54FD6-8C1E-458F-9332-E81B90D3CDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cryhard.TaskPlanner.Domain.Logic.Tests", "cryhard.TaskPlanner.Domain.Logic.Tests\cryhard.TaskPlanner.Domain.Logic.Tests.csproj", "{62200863-548A-4370-B8CF-31AE313DB3E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5B5C51-ED41-4E31-8B9A-C88E5CAD3A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5B5C51-ED41-4E31-8B9A-C88E5CAD3A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5B5C51-ED41-4E31-8B9A-C88E5CAD3A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5B5C51-ED41-4E31-8B9A-C88E5CAD3A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321ECB18-75C8-4DB7-9EE7-D5B4BE6D76FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321ECB18-75C8-4DB7-9EE7-D5B4BE6D76FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321ECB18-75C8-4DB7-9EE7-D5B4BE6D76FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321ECB18-75C8-4DB7-9EE7-D5B4BE6D76FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF54FD6-8C1E-458F-9332-E81B90D3CDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF54FD6-8C1E-458F-9332-E81B90D3CDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF54FD6-8C1E-458F-9332-E81B90D3CDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF54FD6-8C1E-458F-9332-E81B90D3CDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62200863-548A-4370-B8CF-31AE313DB3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62200863-548A-4370-B8CF-31AE313DB3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62200863-548A-4370-B8CF-31AE313DB3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62200863-548A-4370-B8CF-31AE313DB3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
